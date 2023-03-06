@@ -17,4 +17,70 @@ int main()
     return 0;
 }
 
+//隨機九宮格 可重複數字
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main()
+{
+    int arr[3][3];
+    srand(time(0)); // 初始化亂數種子
+
+    // 生成隨機數字填充九宮格
+    for(int i = 0; i < 3; i++)
+    {
+        for(int j = 0; j < 3; j++)
+        {
+            arr[i][j] = rand() % 9 + 1;
+        }
+    }
+
+    // 輸出九宮格
+    for(int i = 0; i < 3; i++)
+    {
+        for(int j = 0; j < 3; j++)
+        {
+            printf("%d ", arr[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+
+
+//九宮格不可重複數字
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main()
+{
+    int board[9] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int i, temp, rand_index;
+
+    // 產生隨機種子
+    srand(time(NULL));
+
+    // 隨機交換數字序列中的元素
+    for (i = 0; i < 9; i++) {
+        rand_index = rand() % 9;
+        temp = board[i];
+        board[i] = board[rand_index];
+        board[rand_index] = temp;
+    }
+
+    // 打印出九宮格
+    printf("+---+---+---+\n");
+    printf("| %d | %d | %d |\n", board[0], board[1], board[2]);
+    printf("+---+---+---+\n");
+    printf("| %d | %d | %d |\n", board[3], board[4], board[5]);
+    printf("+---+---+---+\n");
+    printf("| %d | %d | %d |\n", board[6], board[7], board[8]);
+    printf("+---+---+---+\n");
+
+    return 0;
+}
+
 
