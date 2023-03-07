@@ -1,1 +1,46 @@
+#include<stdio.h>
+
+#define LEN 5
+
+void maxElement(int *, int *);
+
+int main(){
+
+    int index;
+    int data[LEN] = {81,3,97,59,69};
+
+    for(int i=0; i<LEN; i++){
+        printf("[%d:%d] ", i, data[i]);
+    }
+
+    printf("\n");
+
+    maxElement(data, &index);
+
+    for(int i=0; i<LEN; i++){
+        printf("[%d:%d] ", i, data[i]);
+    }
+
+    printf("\nMaxElement: %d (Position: %d)\n", data[0],index);
+
+    return 0;
+}
+
+//找出陣列的最大值
+void maxElement(int *eles, int *index){
+
+    int maxValue = eles[0];
+    *index = 0;
+
+    for(int i=1; i<LEN; i++){
+        if(eles[i] > maxValue){
+            maxValue = eles[i];
+            *index = i;//最大值的陣列索引
+        }
+    }
+
+    int temp = eles[0];
+    eles[0] = maxValue;
+    eles[*index] = temp;
+}
 
