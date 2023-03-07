@@ -19,6 +19,7 @@ int main(){
 	
 
 //兩未知大小矩陣運算
+//rows:列(橫向)  columns:行(縱向) 
 #include <stdio.h>
 
 int main() {
