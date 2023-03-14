@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+	int i;
+	char *str[][2]={
+		"professor","Justin",
+		"techer","Momor",
+		"student","Caterillar"
+	};
+	for(i=0;i<3;i++){
+		printf("%s:%s\n",str[i][0],str[i][1]);
+	}
+	return 0;
+}
