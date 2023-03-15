@@ -1,5 +1,5 @@
 # 一下程式設計筆記
-![](http://www2.lssh.tp.edu.tw/~hlf/class-1/lang-c/while.gif)
+
 ## 索引欄
 
 + [C語言入門基礎](./C語言入門基礎)
