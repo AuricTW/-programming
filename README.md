@@ -29,4 +29,4 @@
    + [語言技術:C語言](https://openhome.cc/Gossip/CGossip/)    
 
 
-   ![](https://upload.cc/i1/2023/03/14/sXnBlx.jpeg)
+   ![]([https://upload.cc/i1/2023/03/14/sXnBlx.jpeg](https://l.facebook.com/l.php?u=https%3A%2F%2Fibb.co%2FVpkw02d%3Ffbclid%3DIwAR2tC-bu8POGXlELaL78w2B-PZJm1BaNutAqN4hWlTY-HjGYMhinToeDHgs&h=AT0l96Xbmi6Da_6YdPsiOzn8D9BlK-14y1KbMSmgcR3fZN7aaTw5DLP5C3CXif4MgYAcHGJKJXSSy5e21Ruvj2Ge0RxOdpLcLipuj0pVGaueJkF7KWVW7yvR2JQV-dHhhmiMAQ))
