@@ -25,8 +25,8 @@
    + [09-聯合與列舉](./程式設計實習/)
    + [10-文字檔案](./程式設計實習/)
 ## 參考資料
-[C語言基本介紹](http://www2.lssh.tp.edu.tw/~hlf/class-1/lang-c/index.htm?fbclid=IwAR34EjBm10635jdUERfG_C0SZvZFKU_4dDCef3TyHWGVpnGk3BtQfPxFY6I)
-[語言技術:C語言](https://openhome.cc/Gossip/CGossip/)
+[C語言基本介紹](http://www2.lssh.tp.edu.tw/~hlf/class-1/lang-c/index.htm?fbclid=IwAR34EjBm10635jdUERfG_C0SZvZFKU_4dDCef3TyHWGVpnGk3BtQfPxFY6I)   
+[語言技術:C語言](https://openhome.cc/Gossip/CGossip/)    
 
 
    ![](https://upload.cc/i1/2023/03/14/sXnBlx.jpeg)
