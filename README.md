@@ -29,4 +29,4 @@
    + [語言技術:C語言](https://openhome.cc/Gossip/CGossip/)    
 
 
-   ![](https://ibb.co/Vpkw02d?fbclid=IwAR2tC-bu8POGXlELaL78w2B-PZJm1BaNutAqN4hWlTY-HjGYMhinToeDHgs)
+   ![](./meme/程式鴿子.gif)
