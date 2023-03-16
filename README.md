@@ -29,4 +29,4 @@
    + [語言技術:C語言](https://openhome.cc/Gossip/CGossip/)    
 
 
-   ![](./meme/程式鴿子.gif)
+   ![](./picture/meme/程式鴿子.gif)
