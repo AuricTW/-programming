@@ -29,23 +29,23 @@ int main() {
     int p, q, e, d, n, m, c, m_decrypt;
     printf("輸入質數 p: ");
     scanf("%d", &p);
-    while (!is_prime(p)) {
+    while (!is_prime(p)) {  //判斷p是否為質數
         printf("輸入錯誤, 請輸入一個質數: ");
         scanf("%d", &p);
     }
     printf("Enter the value of q: ");
     scanf("%d", &q);
-    while (!is_prime(q)) {
+    while (!is_prime(q)) {  //判斷p是否為質數
         printf("輸入錯誤, 請輸入一個質數: ");
         scanf("%d", &q);
     }
     generate_key(&e, &d, &n, p, q);
-    printf("Public key: (%d, %d)\n", e, n);
-    printf("Private key: (%d, %d)\n", d, n);
-    printf("Enter the value of m: ");
+    printf("公鑰: (%d, %d)\n", e, n);
+    printf("私鑰: (%d, %d)\n", d, n);
+    printf("輸入要加密的數值 m: ");
     scanf("%d", &m);
     c = encrypt(m, e, n);
-    printf("Encrypted message: %d\n", c);
+    printf("密文: %d\n", c);
     m_decrypt = decrypt(c, d, n);
     printf("Decrypted message: %d\n", m_decrypt);
     return 0;
