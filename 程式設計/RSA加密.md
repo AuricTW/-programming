@@ -103,3 +103,52 @@ int decrypt(int c, int d, int n) {
     return m;
 }
 ```
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main() {
+    // Step 1: Select two large prime numbers p and q
+    int p, q;
+    printf("Enter two large prime numbers p and q:\n");
+    scanf("%d %d", &p, &q);
+
+    // Step 2: Calculate n = p * q
+    int n = p * q;
+
+    // Step 3: Calculate phi(n) = (p-1) * (q-1)
+    int phi = (p - 1) * (q - 1);
+
+    // Step 4: Select an integer e, 1 < e < phi(n), and e and phi(n) are coprime
+    int e;
+    printf("Enter an integer e such that 1 < e < phi(n) and e is coprime with phi(n):\n");
+    scanf("%d", &e);
+
+    // Step 5: Calculate d, such that (d * e) % phi(n) = 1
+    int k = 1;
+    int d;
+    while (1) {
+        d = (k * phi + 1) / e;
+        if ((d * e) % phi == 1) {
+            break;
+        }
+        k++;
+    }
+
+    // Step 6: Print the public and private keys
+    printf("Public key: (%d, %d)\n", e, n);
+    printf("Private key: (%d, %d)\n", d, n);
+
+    // Step 7: Encrypt a message M using the public key
+    int M;
+    printf("Enter a message M to be encrypted:\n");
+    scanf("%d", &M);
+    int C = fmod(pow(M, e), n);
+    printf("Encrypted message: %d\n", C);
+
+    // Step 8: Decrypt the message using the private key
+    int D = fmod(pow(C, d), n);
+    printf("Decrypted message: %d\n", D);
+
+    return 0;
+}
