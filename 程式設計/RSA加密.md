@@ -27,16 +27,16 @@ int decrypt(int , int , int );
 
 int main() {
     int p, q, e, d, n, m, c, m_decrypt;
-    printf("Enter the value of p: ");
+    printf("輸入質數 p: ");
     scanf("%d", &p);
     while (!is_prime(p)) {
-        printf("Invalid input, please enter a prime number: ");
+        printf("輸入錯誤, 請輸入一個質數: ");
         scanf("%d", &p);
     }
     printf("Enter the value of q: ");
     scanf("%d", &q);
     while (!is_prime(q)) {
-        printf("Invalid input, please enter a prime number: ");
+        printf("輸入錯誤, 請輸入一個質數: ");
         scanf("%d", &q);
     }
     generate_key(&e, &d, &n, p, q);
