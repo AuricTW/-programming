@@ -1,5 +1,5 @@
 # C語言程式設計筆記
- ![](./picture/meme/程式鴿子.gif)
+ ![](-programming/picture/general/AddText_03-19-10.49.37.png)
 >編寫人：李韋宏  
 >內容：C語言基礎及進階應用、程式設計及實習課程筆記         
 >友善提醒：
