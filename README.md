@@ -34,6 +34,7 @@
 ## 參考資料
    + [C語言基本介紹](http://www2.lssh.tp.edu.tw/~hlf/class-1/lang-c/index.htm?fbclid=IwAR34EjBm10635jdUERfG_C0SZvZFKU_4dDCef3TyHWGVpnGk3BtQfPxFY6I)   
    + [語言技術:C語言](https://openhome.cc/Gossip/CGossip/)    
+   + [Kashiwa的github](https://github.com/ksw2000)
    + [C語言從入門到放棄]()    
 
    ![](./picture/meme/程式鴿子.gif)
