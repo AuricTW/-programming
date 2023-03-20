@@ -1,0 +1,30 @@
+在C程式宣告一個結構與一個聯合，並利用typedef關鍵字分別建立結構以及聯合的識別字；隨後在新識別字下宣告三個變數，結構的兩個變數，聯合的一個變數；對三個變數指定各個成員變數的初值後，並將內容依序印出，如下圖所示。
+
+*提示聯合的成員變數有兩個，其資料型態分別為整數與浮點數(選擇OrangeJuice單位的資料型態)；結構的成員變數有兩個，其資料型態分別為字串(C)、整數(Apple)。*
+
+提示：
+```c
+#include<stdio.h>
+#include<string.h>
+
+struct _{
+  char _[30];
+  int _;
+};
+
+union _{
+  int _;
+  float _;
+
+};
+
+//主程式
+
+int main(){
+_
+printf("C: %_ units\n", _);
+printf("Apple: %_ units\n", _);
+printf("Orange Juice: %_ liters\n", _);
+return 0;
+}
+```
