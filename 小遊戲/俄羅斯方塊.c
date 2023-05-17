@@ -48,7 +48,7 @@ void del_full(HANDLE hOut,struct Tetris *);
 void start_game();
 
 
-void main()
+int main()
 { 
  //制作游戏窗口
  make_frame();      
