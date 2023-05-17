@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> //複製測試
 
 #define SIZE 3
 
